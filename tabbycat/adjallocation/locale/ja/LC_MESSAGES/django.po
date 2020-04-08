@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-04 13:37-0500\n"
-"PO-Revision-Date: 2020-03-09 18:29\n"
+"PO-Revision-Date: 2020-04-08 12:53\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -79,7 +79,7 @@ msgstr "事前に用意されたパネルジャッジをディベートに自動
 #, python-format
 msgid "Successfully auto-allocated adjudicators to debates. However, there was a warning:"
 msgid_plural "Successfully auto-allocated adjudicators to debates. However, there were %(count)d warnings:"
-msgstr[0] ""
+msgstr[0] "ディベートにジャッジを自動で割り当てることに成功しました。以下の警告があります（ %(count)d 個）。"
 
 #: adjallocation/consumers.py:115
 msgid "Successfully auto-allocated adjudicators to debates."
@@ -93,7 +93,7 @@ msgstr "パネルがいません。まずパネルを作成してください。
 #, python-format
 msgid "Successfully auto-allocated adjudicators to preformed panels. However, there was a warning:"
 msgid_plural "Successfully auto-allocated adjudicators to preformed panels. However, there were %(count)d warnings:"
-msgstr[0] ""
+msgstr[0] "事前設定したパネルににジャッジを自動で割り当てることに成功しました。以下の警告があります（ %(count)d 個）。"
 
 #: adjallocation/consumers.py:161
 msgid "Successfully auto-allocated adjudicators to preformed panels."
@@ -226,7 +226,7 @@ msgstr "勝ち点が同数のグループの最低数"
 
 #: adjallocation/models.py:120
 msgid "Estimate of the lowest bracket for which this panel might be"
-msgstr ""
+msgstr "このパネルが割り当てられると想定されるブラケットの最低値"
 
 #: adjallocation/models.py:122
 msgid "maximum bracket"
@@ -234,7 +234,7 @@ msgstr "勝ち点が同数のグループの最大数"
 
 #: adjallocation/models.py:123
 msgid "Estimate of the highest bracket for which this panel might be"
-msgstr ""
+msgstr "このパネルが割り当てられると想定されるブラケットの最高値"
 
 #: adjallocation/models.py:125
 msgid "room rank"
@@ -242,7 +242,7 @@ msgstr "部屋の順位"
 
 #: adjallocation/models.py:126
 msgid "Sequential number of panel, not used in any algorithms"
-msgstr ""
+msgstr "どのアルゴリズムでも使用されていないパネルの通し番号"
 
 #: adjallocation/models.py:128
 msgid "liveness"
@@ -254,11 +254,11 @@ msgstr ""
 
 #: adjallocation/models.py:132
 msgid "preformed panel"
-msgstr ""
+msgstr "事前設定されたパネル"
 
 #: adjallocation/models.py:133
 msgid "preformed panels"
-msgstr ""
+msgstr "事前設定されたパネル"
 
 #: adjallocation/models.py:167
 msgid "panel"
@@ -266,11 +266,11 @@ msgstr "パネルジャッジ"
 
 #: adjallocation/models.py:174
 msgid "preformed panel adjudicator"
-msgstr ""
+msgstr "事前設定されたパネルジャッジ"
 
 #: adjallocation/models.py:175
 msgid "preformed panel adjudicators"
-msgstr ""
+msgstr "事前設定されたパネルジャッジ"
 
 #: adjallocation/preformed/base.py:41
 msgid "There are no preformed panels to use. Have you allocated preformed panels for this round? If not, try just auto-allocating adjudicators instead."
