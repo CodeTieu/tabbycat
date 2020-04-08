@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-04 13:37-0500\n"
-"PO-Revision-Date: 2020-04-01 04:20\n"
+"PO-Revision-Date: 2020-04-08 03:50\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Malay\n"
 "Language: ms_MY\n"
@@ -245,7 +245,7 @@ msgstr ""
 
 #: adjallocation/models.py:128
 msgid "liveness"
-msgstr ""
+msgstr "layak break"
 
 #: adjallocation/models.py:129
 msgid "Number of categories this room is expected to be live for"
@@ -285,7 +285,7 @@ msgstr ""
 
 #: adjallocation/templates/preformed_index.html:16
 msgid "Note that only adjudicators who have been marked as 'available' for that round will be able to be allocated for that round, so you may need to set their availability in advance."
-msgstr ""
+msgstr "Hanya hakim yang ditanda sebagai 'ada' untuk pusingan itu boleh ditetapkan untukp pusingan itu, jadi anda perlu tetapkan keberadaan hakim terlebih dahulu."
 
 #: adjallocation/templates/preformed_index.html:37
 #, python-format
